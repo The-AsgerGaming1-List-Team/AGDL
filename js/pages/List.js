@@ -25,7 +25,7 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="i + 1 <= 50" class="type-label-lg">#{{ i + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
@@ -100,28 +100,31 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 480fps)
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        Your footage must show the death you got before the completion, and at least up until the completion screen show animation has completely finished appearing. If you beat it 1 attempt, then show at least you entering the level
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                        It must be the level you beat and not a copy of the level.
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
+                        Raw footage must be a youtube video or a google drive link. if livestreamed, send the completion livestream
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        The recording must also show the player hit the endwall, or the completion will be invalidated
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                        Your raw footage cannot contain ANY editing or trimming in it whatsoever
                     </p>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
+                        Your run must use absolutely NO skips and NO secret ways
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                        Your clicks must be recorded with the raw footage and must be hearable.
+                    </p>
+                    <p>
+                        The level must not be in legacy
                     </p>
                 </div>
             </div>
