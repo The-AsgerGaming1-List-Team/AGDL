@@ -97,14 +97,21 @@ export default {
             return this.leaderboard[this.selected];
         },
     },
-    async mounted() {
-        const [leaderboard, err] = await fetchLeaderboard();
-        this.leaderboard = leaderboard;
-        this.err = err;
-        // Hide loading spinner
-        this.loading = false;
-    },
-    methods: {
+async mounted() {
+    const [leaderboard, err] = await fetchLeaderboard();
+
+    // Remove verified scores from totals
+    leaderboard.forEach(entry => {
+        const completedSum = entry.completed.reduce((a, b) => a + b.score, 0);
+        const progressedSum = entry.progressed.reduce((a, b) => a + b.score, 0);
+
+        entry.total = completedSum + progressedSum;
+    });
+
+    this.leaderboard = leaderboard;
+    this.err = err;
+    this.loading = false;
+}    methods: {
         localize,
     },
 };
