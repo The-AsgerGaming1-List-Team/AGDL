@@ -1,0 +1,29 @@
+{
+    "id": 134882118,
+    "name": "Sparm",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://www.youtube.com/watch?v=x6U65JFNVgg",
+    "percentToQualify": "35",
+    "records": [
+        {
+            "user": "Picklekyyy",
+            "link": "https://www.youtube.com/watch?v=h3bV8qtvXss&t=2383s",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Mjsgd02027",
+            "link": "https://youtu.be/sfmzqKK3ENA?si=J6WUXy8rw9qTaxhR",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "FumikoTheLotus",
+            "link": "https://www.youtube.com/watch?v=nR3vkV_maj8",
+            "percent": 100,
+            "hz": 70
+        }
+    ]
+}
