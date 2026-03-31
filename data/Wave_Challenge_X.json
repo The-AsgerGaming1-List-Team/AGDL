@@ -1,0 +1,23 @@
+{
+    "id": 134943763,
+    "name": "Wave Challenge X",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://www.youtube.com/watch?v=5HdkmA23quM",
+    "percentToQualify": "61",
+    "records": [
+        {
+            "user": "Picklekyyy",
+            "link": "https://www.youtube.com/watch?v=Z-WzBYR_cAg",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Mjsgd02027",
+            "link": "https://youtu.be/9xicOY9mk1s?si=3sbosGrlpMOPLpEF",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
