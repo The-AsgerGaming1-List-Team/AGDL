@@ -1,0 +1,17 @@
+{
+    "id": 112534965,
+    "name": "Clubstep 2",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://www.youtube.com/watch?v=xuhitFPWiIY",
+    "percentToQualify": "65",
+    "records": [
+        {
+            "user": "Mjsgd02027",
+            "link": "https://youtu.be/ZfaQ6lLcOlY?si=RZS6qljTOIrvhssd",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
