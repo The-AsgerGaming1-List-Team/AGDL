@@ -1,0 +1,24 @@
+{
+    "id": 114008460,
+    "name": "Robot Challenge II",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://youtu.be/eIh47X75Lcg",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "Picklekyyy",
+            "link": "https://www.youtube.com/watch?v=h3bV8qtvXss",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Mjsgd02027",
+            "link": "https://youtu.be/-LuPggkTDzk?si=4i08waO4buREHERf",
+            "percent": 100,
+            "hz": 60
+        }
+
+    ]
+}
