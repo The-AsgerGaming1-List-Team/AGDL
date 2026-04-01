@@ -62,7 +62,6 @@ export async function fetchLeaderboard() {
             (u) => u.toLowerCase() === level.verifier.toLowerCase(),
         ) || level.verifier;
         scoreMap[verifier] ??= {
-            verified: [],
             completed: [],
             progressed: [],
         };
