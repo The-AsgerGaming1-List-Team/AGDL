@@ -55,24 +55,6 @@ export async function fetchLeaderboard() {
         if (err) {
             errs.push(err);
             return;
-        }
-
-        // Verification
-        const verifier = Object.keys(scoreMap).find(
-            (u) => u.toLowerCase() === level.verifier.toLowerCase(),
-        ) || level.verifier;
-        scoreMap[verifier] ??= {
-            verified: [],
-            completed: [],
-            progressed: [],
-        };
-        const { verified } = scoreMap[verifier];
-        verified.push({
-            rank: rank + 1,
-            level: level.name,
-            score: score(rank + 1, 100, level.percentToQualify),
-            link: level.verification,
-        });
 
         // Records
         level.records.forEach((record) => {
