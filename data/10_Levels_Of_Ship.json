@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/GR51J8tBLtw",
     "percentToQualify": "90",
     "records": [
+        {
+            "user": "Picklekyyy",
+            "link": "https://www.youtube.com/watch?v=0ueNuyCsrDg",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
