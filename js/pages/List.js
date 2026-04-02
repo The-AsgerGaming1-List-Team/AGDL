@@ -118,13 +118,16 @@ export default {
                         Your raw footage cannot contain ANY editing or trimming in it whatsoever
                     </p>
                     <p>
-                        Your run must use absolutely NO skips and NO secret ways
+                        Your run must use no major skips and no secret ways. If you wanna know if a skip you're doing in a level is valid, please speak to the owner through discord
                     </p>
                     <p>
                         Your clicks must be recorded with the raw footage and must be hearable.
                     </p>
                     <p>
                         The level must not be in legacy
+                    </p>
+                    <p>
+                        You cannot use any physics bypass or cbf. cbs is allowed though
                     </p>
                 </div>
             </div>
