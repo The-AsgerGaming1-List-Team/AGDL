@@ -129,6 +129,9 @@ export default {
                     <p>
                         You cannot use any physics bypass or cbf. cbs is allowed though
                     </p>
+                    <p>
+                        If you can, PLEASE show any proof in the raw footage that you did not break any of these rules, most importantly the cbf rule since that one is hard to detect
+                    </p>
                 </div>
             </div>
         </main>
