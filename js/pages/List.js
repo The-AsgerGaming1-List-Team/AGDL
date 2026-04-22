@@ -109,13 +109,13 @@ export default {
                         It must be the level you beat and not a copy of the level.
                     </p>
                     <p>
-                        Raw footage must be a youtube video or a google drive link. if livestreamed, send the completion livestream
+                        Raw footage must be a youtube video, a google drive link or medal clip. if livestreamed, send the completion livestream
                     </p>
                     <p>
                         The recording must also show the player hit the endwall, or the completion will be invalidated
                     </p>
                     <p>
-                        Your raw footage cannot contain ANY editing or trimming in it whatsoever
+                        Your raw footage cannot contain ANY editing in it whatsoever
                     </p>
                     <p>
                         Your run must use no major skips and no secret ways. If you wanna know if a skip you're doing in a level is valid, please speak to the owner through discord
