@@ -1,0 +1,16 @@
+[
+{
+        "name": "Meme Song Pack",
+        "levels": [
+            "insert_json_filename_here2",
+        ],
+        "colour": "#c0c0c0"
+    },
+{
+        "name": "Black and White Pack",
+        "levels": [
+            "insert_json_filename_here",
+        ],
+        "colour": "linear-gradient(45deg, rgba(0,0,0,1) 33%, rgba(212,208,208,1) 66%, rgba(255,255,255,1) 100%)"
+    }
+]
