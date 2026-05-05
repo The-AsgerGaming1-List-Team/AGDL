@@ -36,15 +36,6 @@ export default {
                     </tr>
                 </table>
             </div>
- <div class="packs" v-if="level.packs && level.packs.length > 0">
-                        <div
-                            v-for="pack in level.packs"
-                            class="tag"
-                            :style="{ background: pack.colour }"
-                        >
-                            <p>{{ pack.name }}</p>
-                        </div>
-                    </div>
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
