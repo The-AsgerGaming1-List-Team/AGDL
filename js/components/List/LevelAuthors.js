@@ -2,7 +2,7 @@ export default {
     props: {
         author: {
             type: String,
-            required: true,
+            required: false,
         },
         creators: {
             type: Array,
