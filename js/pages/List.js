@@ -73,6 +73,7 @@ export default {
                             <td class="cbf">
                             <p v-if="record.cbf">{{ record.cbf }} </p>
                             <p v-else> </p>
+                            </td>
                             <td class="hz">
                                 <p>{{ record.hz }}Hz</p>
                             </td>
