@@ -68,9 +68,6 @@ export default {
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
-                                <td class="cbf" v-if="record.cbf">
-                                    <p>{{ score.cbf }}cbf</p>
-                                </td>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
                                 </td>
