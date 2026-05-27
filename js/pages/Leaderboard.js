@@ -72,7 +72,7 @@ export default {
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="cbf">
-                                    <p v-if="record.cbf > 0">
+                                    <p v-if="record.cbf = cbf">
                                         {{ record.cbf }}cbf
                                     </p>
                                 </td>
