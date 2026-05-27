@@ -11,7 +11,7 @@
             "user": "Clientt",
             "link": "https://www.youtube.com/watch?v=qUlqCjmrZ9E",
             "percent": 100,
-            "cbf": 1,
+            "cbf": "cbf",
             "hz": 165
         }
     ]
