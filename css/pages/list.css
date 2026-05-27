@@ -80,6 +80,7 @@
 }
 .page-list .level-container .level .records .percent,
 .page-list .level-container .level .records .user,
+.page-list .level-container .level .records .cbf,
 .page-list .level-container .level .records .hz {
     padding-block: 1rem;
 }
@@ -87,6 +88,7 @@
     width: 100%;
 }
 .page-list .level-container .level .records .percent,
+.page-list .level-container .level .records .cbf,
 .page-list .level-container .level .records .hz {
     text-align: end;
 }
