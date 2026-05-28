@@ -24,6 +24,13 @@
             "link": "https://www.youtube.com/watch?v=iKIXOM0aQkg",
             "percent": 100,
             "hz": 360
+        },
+                        {
+            "user": "Picklekyyy",
+            "link": "https://www.youtube.com/live/1vkSKgURI0Q",
+            "percent": 100,
+            "cbf": "CBF",
+            "hz": 60
         }
     ]
 }
