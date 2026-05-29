@@ -102,3 +102,48 @@ input[type="checkbox"] {
     cursor: pointer;
     margin: 0;
 }
+/* --- Force clickable cursor on interactive UI --- */
+button,
+a,
+[role="button"],
+.nav__tab,
+.packs-nav button,
+.pack-list .list .level button,
+.page-list .list .level button {
+  cursor: pointer;
+}
+
+/* Keep disabled / non-clickable states correct */
+button:disabled,
+.pack-list .list .level.error button,
+.page-list .list .level.error button {
+  cursor: not-allowed;
+}
+
+/* Shitty */
+
+.shitty .surface {
+    padding: 1.5rem;
+    border: 2px solid var(--color-on-background);;
+}
+
+.shitty header.surface {
+    padding: 0 calc(25vw - 10rem);
+    margin-bottom: 1.5rem;
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+}
+
+.shitty.root {
+    padding: 1.5rem;
+    background-image: url("/assets/april-background.jpg");
+    background-size: cover;
+}
+
+.shitty main {
+    column-gap: 1.5rem;
+}
+
+.toggle-shitty:not(:hover) img {
+    display: none;
+}
