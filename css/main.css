@@ -1,3 +1,11 @@
+@charset "UTF-8";
+
+/* Allow grid/flex children to shrink instead of forcing page overflow */
+main,
+.pack-list,
+  min-width: 0;
+}
+
 :root {
     --color-background: white;
     --color-on-background: black;
