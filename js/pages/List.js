@@ -54,6 +54,10 @@ export default {
                             <div class="type-title-sm">Password</div>
                             <p>{{ level.password || 'Free to Copy' }}</p>
                         </li>
+                        <li>
+                            <div class="type-title-sm">Verifier used cbf?</div>
+                            <p>{{ level.cbf }}</p>
+                        </li>
                     </ul>
                     <h2>Records</h2>
                     <p v-if="selected + 1 <= 40"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
