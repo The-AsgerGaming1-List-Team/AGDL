@@ -55,7 +55,7 @@ export default {
                             <p>{{ level.password || 'Free to Copy' }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Verifier used cbf?</div>
+                            <div class="type-title-sm">Cbf used?</div>
                             <p>{{ level.cbf }}</p>
                         </li>
                     </ul>
