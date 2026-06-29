@@ -8,5 +8,11 @@
     "cbf": "No",
     "percentToQualify": "65",
     "records": [
+                        {
+            "user": "Exlvs",
+            "link": "https://drive.google.com/file/d/1c787TJTZSx_F__WQPhPD-LgKuECDomu4/view?usp=drivesdk",
+            "percent": 100,
+            "hz": 90
+        }
     ]
 }
