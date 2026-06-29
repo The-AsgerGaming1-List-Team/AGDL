@@ -50,6 +50,13 @@
             "percent": 100,
             "cbf": "CBF",
             "hz": 60
+        },
+                        {
+            "user": "Earthmoth",
+            "link": "https://www.youtube.com/watch?v=JXz-0CgoZuw",
+            "percent": 100,
+            "cbf": "CBF",
+            "hz": 360
         }
     ]
 }
