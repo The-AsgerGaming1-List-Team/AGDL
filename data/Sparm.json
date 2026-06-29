@@ -57,6 +57,12 @@
             "percent": 100,
             "cbf": "CBF",
             "hz": 360
+        },
+                        {
+            "user": "Exlvs",
+            "link": "https://drive.google.com/file/d/1Vpr-jdWaXHyHmZwlqzuQagQ7Uq5zLgJh/view?usp=drivesdk",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
