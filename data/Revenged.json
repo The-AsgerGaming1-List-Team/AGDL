@@ -13,6 +13,13 @@
             "link": "https://www.youtube.com/watch?v=ViOze1ebKdc",
             "percent": 100,
             "hz": 300
+        },
+                        {
+            "user": "RennnGMD",
+            "link": "https://youtu.be/GAUPU5VY1s4?si=uMELvqyvDr8RCuMw",
+            "percent": 100,
+            "cbf": "cbf",
+            "hz": 60
         }
     ]
 }
