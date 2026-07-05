@@ -19,6 +19,12 @@
             "link": "https://www.youtube.com/watch?v=msBJZltAjoI",
             "percent": 100,
             "hz": 360
+        },
+                        {
+            "user": "Exlvs",
+            "link": "https://drive.google.com/file/d/1Z6-ExI9vBIEeW24pW3iLGmc6kbfVp8H0/view?usp=drivesdk",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
