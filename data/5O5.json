@@ -8,5 +8,11 @@
     "cbf": "No",
     "percentToQualify": "61",
     "records": [
+                        {
+            "user": "Ploggix",
+            "link": "https://www.youtube.com/live/PMsWqP681N8?si=dsUZ3gOjH5xZaMf_&t=461",
+            "percent": 73,
+            "hz": 300
+        }
     ]
 }
