@@ -13,6 +13,13 @@
             "link": "https://youtu.be/tbQ9Rsxf82U?si=M5IhPiIM1Eeeh2Qx",
             "percent": 100,
             "hz": 120
+        },
+        {
+            "user": "ShinobiAkira",
+            "link": "https://www.youtube.com/watch?v=HbFaT_yuFRI",
+            "percent": 100,
+            "cbf": "cbf",
+            "hz": 240
         }
     ]
 }
