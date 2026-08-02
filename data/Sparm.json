@@ -70,6 +70,12 @@
             "percent": 100,
             "cbf": "CBF",
             "hz": 280
+        },
+        {
+            "user": "T3k4in",
+            "link": "https://www.youtube.com/watch?v=WxmcUTV_-WM",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
