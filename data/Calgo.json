@@ -8,5 +8,11 @@
     "cbf": "No",
     "percentToQualify": "70",
     "records": [
+                        {
+            "user": "Exlvs",
+            "link": "https://www.youtube.com/watch?v=w6n0C_XSbcc",
+            "percent": 100,
+            "hz": 90
+        }
     ]
 }
