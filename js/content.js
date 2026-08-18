@@ -1,8 +1,5 @@
 import { round, score } from './score.js';
 const dir = '/data';
-const leaderboardBlacklist = [
-  'Asger Gaming1',
-];
 
 /**
  * Path to directory containing `_list.json` and all levels
