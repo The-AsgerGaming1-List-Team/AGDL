@@ -72,5 +72,24 @@
         "Heartache"
     ],
     "colour": "#000000"
+  },
+  {
+    "name": "Old pack",
+    "levels": [
+        "Revenger",
+        "Abyssive",
+        "WaveChallengeVIFull",
+        "MoveOn",
+    ],
+    "colour": "#594c3b"
+  },
+  {
+    "name": "Platformer pack",
+    "levels": [
+        "Geometrytale",
+        "Jet_Mountain",
+        "Survive"
+    ],
+    "colour": "#1a1ac4"
   }
 ]
