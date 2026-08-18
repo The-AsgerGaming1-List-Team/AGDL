@@ -42,12 +42,13 @@ export default {
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
 
                     <div v-if="level.packs?.length" class="packs">
-                        <div
+                        <a
                             v-for="pack in level.packs"
                             class="pack"
                             :style="'background-color: ' + pack.colour + '; color: ' + getFontColour(pack.colour)"
+                    :href="'/packs?pack=' + encodeURIComponent(pack.name)">
                             {{ pack.name }}
-                        </div>
+                        </a>
                     </div>
 
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
