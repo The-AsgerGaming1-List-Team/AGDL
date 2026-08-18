@@ -105,3 +105,23 @@
     border-radius: 14px;
     line-height: 1.1;
 }
+.player-packs {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.player-packs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+}
+
+.player-pack {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 6px;
+    line-height: 1.1;
+    pointer-events: none;
+}
