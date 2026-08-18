@@ -128,17 +128,23 @@
 .page-list .meta .editors li a:hover {
     text-decoration: underline;
 }
-.level-packs {
+.packs {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    margin: 10px 0 15px;
+    gap: 6px;
+    margin: 10px 0;
 }
 
-.level-packs .pack {
+.pack {
     display: inline-block;
-    padding: 5px 10px;
-    border-radius: 6px;
-    font-size: 0.9rem;
-    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    transition: opacity 0.15s ease;
+}
+
+.pack:hover {
+    opacity: 0.8;
 }
