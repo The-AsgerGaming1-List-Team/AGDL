@@ -152,3 +152,51 @@ export async function fetchLeaderboard() {
   // Sort by total score
   return [res.sort((a, b) => b.total - a.total), errs];
 }
+export async function fetchPacks() {
+    try {
+        const res = await fetch(`${dir}/_packlist.json`);
+        return await res.json();
+    } catch {
+        return null;
+    }
+}
+
+export async function fetchPackLevels(packName) {
+    try {
+        const packs = await fetchPacks();
+
+        if (!packs) return null;
+
+        const pack = packs.find(p => p.name === packName);
+
+        if (!pack) return null;
+
+        return await Promise.all(
+            pack.levels.map(async (path, idx) => {
+                try {
+                    const levelRes = await fetch(`${dir}/${path}.json`);
+                    const level = await levelRes.json();
+
+                    return [{
+                        level: {
+                            ...level,
+                            path,
+                            records: (level.records ?? [])
+                                .sort((a, b) => b.percent - a.percent)
+                        }
+                    }, null];
+
+                } catch {
+                    console.error(
+                        `Failed to load pack level #${idx + 1}: ${path}.json`
+                    );
+
+                    return [null, path];
+                }
+            })
+        );
+
+    } catch {
+        return null;
+    }
+}
