@@ -47,20 +47,19 @@ export default {
                         <h3>{{ entry.total }}</h3>
                 <!-- PACKS -->
                         <h2 v-if="entry.packs?.length">Packs</h2>
-                        <div v-if="entry.packs?.length" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;">
-                    <div v-for="pack in entry.packs"
-                        class="tag"
-                        :style="{
-                            background: pack.colour,
-                            color: getFontColour(pack.colour),
-                            padding: '8px 12px',
-                            borderRadius: '14px',
-                            lineHeight: '1.1'
-                        }">
-                        {{ pack.name }}
-                    </div>
+<div v-if="entry.packs?.length" class="player-packs">
+    <div
+        v-for="pack in entry.packs"
+        class="player-pack"
+        :style="{
+            background: pack.colour,
+            color: getFontColour(pack.colour)
+        }"
+    >
+        {{ pack.name }}
     </div>
-                        <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>
+</div>
+<h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>
                         <table class="table">
                             <tr v-for="score in entry.verified">
                                 <td class="rank">
