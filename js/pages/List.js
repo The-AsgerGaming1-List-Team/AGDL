@@ -46,8 +46,8 @@ export default {
         v-for="pack in level.packs"
         class="pack"
         :style="'background-color: ' + pack.colour + '; color: ' + getFontColour(pack.colour)"
-        :href="`/packs?pack=${encodeURIComponent(pack.name)}`"
-    >
+:href="'/packs?pack=' + encodeURIComponent(pack.name)"
+>
         {{ pack.name }}
     </a>
 </div>
