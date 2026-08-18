@@ -31,8 +31,8 @@
     "name": "The Sequels Pack",
     "levels": [
         "WCVIF_Reborn",
-        "Revenger II",
-        "Clubstep 2"
+        "Revenger_II",
+        "Clubstep_2"
     ],
     "colour": "#b115bf"
   },
@@ -71,6 +71,6 @@
         "Unnamed_ZERO",
         "Heartache"
     ],
-    "colour": "#ffffff"
+    "colour": "#000000"
   }
 ]
