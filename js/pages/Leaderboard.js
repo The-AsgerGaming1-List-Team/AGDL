@@ -48,16 +48,20 @@ export default {
                 <!-- PACKS -->
                 <h2 v-if="entry.verified.length > 0">
                         <h2 v-if="entry.packs?.length">Packs</h2>
-<div v-if="entry.packs && entry.packs.length" class="player-packs">
+<div v-if="entry.packs && entry.packs.length">
     <h2>Packs</h2>
 
-    <div class="player-packs-list">
+    <div>
         <span
             v-for="pack in entry.packs"
-            class="player-pack"
             :style="{
                 backgroundColor: pack.colour,
-                color: getFontColour(pack.colour)
+                color: getFontColour(pack.colour),
+                display: 'inline-block',
+                padding: '6px 10px',
+                marginRight: '8px',
+                marginBottom: '8px',
+                borderRadius: '6px'
             }"
         >
             {{ pack.name }}
