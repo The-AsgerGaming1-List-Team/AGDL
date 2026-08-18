@@ -14,6 +14,20 @@ const leaderboardBlacklist = [
   'Asger Gaming1',
 ];
 export async function fetchList() {
+    const packs = await fetchPacks();
+
+const levelToPacks = {};
+
+if (packs) {
+    packs.forEach(pack => {
+        (pack.levels ?? []).forEach(levelId => {
+            (levelToPacks[levelId] ??= []).push({
+                name: pack.name,
+                colour: pack.colour,
+            });
+        });
+    });
+}
     const listResult = await fetch(`${dir}/_list.json`);
     try {
         const list = await listResult.json();
@@ -26,6 +40,7 @@ export async function fetchList() {
                         {
                             ...level,
                             path,
+                            packs: levelToPacks[path] ?? [],
                             records: level.records.sort(
                                 (a, b) => b.percent - a.percent,
                             ),
