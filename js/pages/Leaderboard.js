@@ -45,30 +45,6 @@ export default {
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h3>{{ entry.total }}</h3>
-                <!-- PACKS -->
-                <h2 v-if="entry.verified.length > 0">
-                        <h2 v-if="entry.packs?.length">Packs</h2>
-<div v-if="entry.packs && entry.packs.length">
-    <h2>Packs</h2>
-
-    <div>
-        <span
-            v-for="pack in entry.packs"
-            :style="{
-                backgroundColor: pack.colour,
-                color: getFontColour(pack.colour),
-                display: 'inline-block',
-                padding: '6px 10px',
-                marginRight: '8px',
-                marginBottom: '8px',
-                borderRadius: '6px'
-            }"
-        >
-            {{ pack.name }}
-        </span>
-    </div>
-</div>
-<h3 v-if="entry">{{ entry.total }}</h3>
 <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>
                         <table class="table">
                             <tr v-for="score in entry.verified">
