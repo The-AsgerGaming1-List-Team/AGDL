@@ -44,7 +44,7 @@ export default {
                     <div v-if="level.packs?.length" class="packs">
                         <a
                             v-for="pack in level.packs"
-                            class="pack type-title-sm"
+                            class="pack type-label-sm"
                             :style="'background-color: ' + pack.colour + '; color: ' + getFontColour(pack.colour)"
                     :href="'/packs?pack=' + encodeURIComponent(pack.name)">
                             {{ pack.name }}
