@@ -42,17 +42,15 @@ export default {
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
 
                     <div v-if="level.packs?.length" class="packs">
-                        <a
-                            v-for="pack in level.packs"
+                        <av-for="pack in level.packs"
                             class="pack"
                             :style="'background-color: ' + pack.colour + '; color: ' + getFontColour(pack.colour)"
                     :href="'/packs?pack=' + encodeURIComponent(pack.name)">
                             {{ pack.name }}
                         </a>
                     </div>
-
-<iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
-<li>
+                <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                <li>
                             <div class="type-title-sm">Points when completed</div>
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
