@@ -53,10 +53,6 @@ export default {
         <span
             v-for="pack in entry.packs"
             class="player-pack"
-            :style="{
-                backgroundColor: pack.colour,
-                color: getFontColour(pack.colour)
-            }"
         >
             {{ pack.name }}
         </span>
