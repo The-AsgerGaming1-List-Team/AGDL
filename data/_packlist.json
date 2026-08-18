@@ -1,13 +1,22 @@
 [
-    {
-        "name": "Top 5 Pack",
-        "levels": [
-            "peace",
-            "Ouchy",
-            "Nya_Circles",
-            "Revenger",
-            "Revenged"
-        ],
-        "colour": "#000000"
-    }
+  {
+    "name": "Asger Pack 1",
+    "levels": [
+      "Asgerment",
+      "Calgo",
+      "Calming",
+      "Clubman"
+    ],
+    "colour": "#ff0000"
+  },
+  {
+    "name": "Challenge Pack",
+    "levels": [
+      "Challenge_II",
+      "Challenge_III",
+      "Challenge_IV",
+      "Challenge_V"
+    ],
+    "colour": "#0072fa"
+  }
 ]
