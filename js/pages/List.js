@@ -39,18 +39,17 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
-<LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
 
-<div v-if="level.packs?.length" class="packs">
-    <a
-        v-for="pack in level.packs"
-        class="pack"
-        :style="'background-color: ' + pack.colour + '; color: ' + getFontColour(pack.colour)"
-:href="'/packs?pack=' + encodeURIComponent(pack.name)"
->
-        {{ pack.name }}
-    </a>
-</div>
+                    <div v-if="level.packs?.length" class="packs">
+                        <a
+                            v-for="pack in level.packs"
+                            class="pack"
+                            :style="'background-color: ' + pack.colour + '; color: ' + getFontColour(pack.colour)"
+                    :href="'/packs?pack=' + encodeURIComponent(pack.name)">
+                            {{ pack.name }}
+                        </a>
+                    </div>
 
 <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
 <li>
