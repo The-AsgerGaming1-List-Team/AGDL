@@ -91,5 +91,14 @@
         "Survive"
     ],
     "colour": "#1a1ac4"
+  },
+  {
+    "name": "Heart problems",
+    "levels": [
+        "Ahhhhh",
+        "Heartache",
+        "Ouchers"
+    ],
+    "colour": "#ff0000"
   }
 ]
