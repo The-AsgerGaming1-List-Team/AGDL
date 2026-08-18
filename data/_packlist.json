@@ -1,36 +1,76 @@
 [
   {
-    "name": "Asger Pack 1",
+    "name": "Wave Trials",
     "levels": [
-      "Asgerment",
-      "Calgo",
-      "Calming",
-      "Clubman"
+      "Wave_Challenge_X",
+        "Wave_Challenge_VIIII",
+        "Wave_Challenge_VIII",
+        "Wave_Challenge_VII",
+        "Wave_Challenge_V"
     ],
-    "colour": "#ff0000"
+    "colour": "#00bbff"
   },
   {
-    "name": "Challenge Pack",
+    "name": "Wave God",
     "levels": [
-      "Challenge_II",
-      "Challenge_III",
-      "Challenge_IV",
-      "Challenge_V"
+        "Nya_Circles",
+        "WCVIF_Reborn",
+        "WaveChallengeVIFull"
     ],
-    "colour": "#0072fa"
+    "colour": "#33f8ff"
   },
   {
-    "name": "Gay",
+    "name": "Revenger Duology",
     "levels": [
-      "Sparm"
+        "Revenger",
+        "Revenger_II"
     ],
-    "colour": "#0072fa"
+    "colour": "#960c0c"
   },
   {
-    "name": "Straight",
+    "name": "The Sequels Pack",
     "levels": [
-      "Peace"
+        "WCVIF_Reborn",
+        "Revenger II",
+        "Clubstep 2"
     ],
-    "colour": "#0072fa"
+    "colour": "#b115bf"
+  },
+  {
+    "name": "Shrooms pack",
+    "levels": [
+        "Wave_Challenge_X",
+        "Ufo_Challenge_II"
+    ],
+    "colour": "#00ff80"
+  },
+  {
+    "name": "Challenge Trials 1",
+    "levels": [
+        "Challenge_VII",
+        "Challenge_VI",
+        "Challenge_V",
+        "Challenge_IV",
+        "Challenge_III"
+    ],
+    "colour": "#ff8400"
+  },
+  {
+    "name": "Challenge Trials 2",
+    "levels": [
+        "Challenge_X",
+        "Challenge_VIIII",
+        "Challenge_VIII"
+    ],
+    "colour": "#ffc800"
+  },
+  {
+    "name": "Timing Trio",
+    "levels": [
+        "Jefferey_End",
+        "Unnamed_ZERO",
+        "Heartache"
+    ],
+    "colour": "#ffffff"
   }
 ]
