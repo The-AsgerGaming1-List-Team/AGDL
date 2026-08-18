@@ -128,17 +128,17 @@ export async function fetchLeaderboard() {
 
       const { completed, progressed } = scoreMap[user];
 
-      if (record.percent === 100) {
-        completed.push({
-          rank: rank + 1,
-          level: level.name,
-          score: score(rank + 1, 100, level.percentToQualify),
-          link: record.link,
-        });
+        if (record.percent === 100) {
+            completed.push({
+                rank: rank + 1,
+                level: level.name,
+                levelPath: level.path,
+                score: score(rank + 1, 100, level.percentToQualify),
+                link: record.link,
+            });
 
-        return;
-      }
-
+            return;
+        }
       progressed.push({
         rank: rank + 1,
         level: level.name,
@@ -150,20 +150,45 @@ export async function fetchLeaderboard() {
   });
 
   // Wrap in extra Object containing the user and total score
-  const res = Object.entries(scoreMap).map(([user, scores]) => {
+const res = Object.entries(scoreMap).map(([user, scores]) => {
     const { verified, completed, progressed } = scores;
-
     const total = [verified, completed, progressed]
-      .flat()
-      .reduce((prev, cur) => prev + cur.score, 0);
+        .flat()
+        .reduce((prev, cur) => prev + cur.score, 0);
 
     return {
-      user,
-      total: round(total),
-      ...scores,
+        user,
+        total: round(total),
+        packs: [],
+        ...scores,
     };
-  });
+});
 
+/* ================= PACK COMPLETION ================= */
+
+const packs = await fetchPacks();
+
+if (packs) {
+    res.forEach(player => {
+        const completedIds = new Set(
+            player.completed
+                .map(level => level.levelPath)
+                .filter(Boolean)
+        );
+
+        player.packs = packs.filter(pack => {
+            const levels = pack.levels ?? [];
+
+            if (levels.length === 0) return false;
+
+            return levels.every(levelId =>
+                completedIds.has(levelId)
+            );
+        });
+    });
+}
+
+/* =================================================== */
   // Sort by total score
   return [res.sort((a, b) => b.total - a.total), errs];
 }
