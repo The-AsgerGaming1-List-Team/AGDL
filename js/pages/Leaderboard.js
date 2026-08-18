@@ -46,20 +46,16 @@ export default {
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h3>{{ entry.total }}</h3>
-<div v-if="entry.packs && entry.packs.length">
+<div v-if="entry.packs && entry.packs.length" class="player-packs">
     <h2>Packs</h2>
 
-    <div>
+    <div class="player-packs-list">
         <span
             v-for="pack in entry.packs"
+            class="player-pack"
             :style="{
                 backgroundColor: pack.colour,
-                color: getFontColour(pack.colour),
-                display: 'inline-block',
-                padding: '6px 10px',
-                marginRight: '8px',
-                marginBottom: '8px',
-                borderRadius: '6px'
+                color: getFontColour(pack.colour)
             }"
         >
             {{ pack.name }}
