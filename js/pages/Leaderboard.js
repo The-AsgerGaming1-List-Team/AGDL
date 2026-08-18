@@ -41,6 +41,21 @@ export default {
                         </tr>
                     </table>
                 </div>
+                <!-- PACKS -->
+                        <h2 v-if="entry.packs?.length">Packs</h2>
+                        <div v-if="entry.packs?.length" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;">
+                    <div v-for="pack in entry.packs"
+                        class="tag"
+                        :style="{
+                            background: pack.colour,
+                            color: getFontColour(pack.colour),
+                            padding: '8px 12px',
+                            borderRadius: '14px',
+                            lineHeight: '1.1'
+                        }">
+                        {{ pack.name }}
+                    </div>
+                </div>
                 <div class="player-container">
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
