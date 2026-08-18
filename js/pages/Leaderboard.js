@@ -52,7 +52,7 @@ export default {
     <div>
         <span
             v-for="pack in entry.packs"
-            class="player-pack type-title-sm"
+            class="player-pack type-label-sm"
             :style="{
                 backgroundColor: pack.colour,
                 color: getFontColour(pack.colour),
