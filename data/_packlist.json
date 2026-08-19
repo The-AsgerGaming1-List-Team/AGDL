@@ -247,5 +247,20 @@
         "Just_Deadlocked"
     ],
     "colour": "#b33b93"
+  },
+  {
+    "name": "Tiny pack",
+    "levels": [
+        "UpDown",
+        "Ahhhhh",
+        "Lebrons_Balls",
+        "Wave_Challenge_X",
+        "Ufo_Challenge_II",
+        "Ouchers",
+        "Robot_Challenge",
+        "Ouchy",
+        "Sleep_Deprivation"
+    ],
+    "colour": "#83b33b"
   }
 ]
