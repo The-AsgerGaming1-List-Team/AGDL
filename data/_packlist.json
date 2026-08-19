@@ -289,5 +289,14 @@
         "Broomstick"
     ],
     "colour": "#851515"
+  },
+  {
+    "name": "Memory pack",
+    "levels": [
+        "Wave_Challenge_VIII",
+        "Heartache",
+        "Praylocked"
+    ],
+    "colour": "#851515"
   }
 ]
