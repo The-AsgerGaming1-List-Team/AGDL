@@ -278,5 +278,16 @@
         "impact_processor"
     ],
     "colour": "#edc213"
+  },
+  {
+    "name": "The Extreme Demon Pack",
+    "levels": [
+        "5O5",
+        "Nya_Circles",
+        "WCVIF_Reborn",
+        "Challenge_X",
+        "Broomstick",
+    ],
+    "colour": "#851515"
   }
 ]
