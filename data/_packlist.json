@@ -262,5 +262,13 @@
         "Sleep_Deprivation"
     ],
     "colour": "#83b33b"
+  },
+  {
+    "name": "Owch pack",
+    "levels": [
+        "Ouchers",
+        "Ouchy"
+    ],
+    "colour": "#a37371"
   }
 ]
