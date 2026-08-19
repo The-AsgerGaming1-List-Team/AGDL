@@ -299,5 +299,15 @@
         "Praylocked"
     ],
     "colour": "#fd82ff"
+  },
+  {
+    "name": "Robtop pack",
+    "levels": [
+        "Impactful_Protester",
+        "Praylocked",
+        "Clubstep_2",
+        "impact_processor"
+    ],
+    "colour": "#faff5e"
   }
 ]
