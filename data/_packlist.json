@@ -163,5 +163,14 @@
         "Challenge_V"
     ],
     "colour": "#999999"
+  },
+  {
+    "name": "Spam pack",
+    "levels": [
+        "Praylocked",
+        "Ahhhhh",
+        "Sparm"
+    ],
+    "colour": "#b57d2a"
   }
 ]
