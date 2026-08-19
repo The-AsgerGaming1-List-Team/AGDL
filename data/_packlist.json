@@ -172,5 +172,52 @@
         "Sparm"
     ],
     "colour": "#b57d2a"
+  },
+  {
+    "name": "Red pack",
+    "levels": [
+        "Challenge_X",
+        "Abyssive",
+        "Ahhhhh",
+        "Heartache",
+        "Challenge_VIII",
+        "Clubman"
+    ],
+    "colour": "#ff0000"
+  },
+  {
+    "name": "Green pack",
+    "levels": [
+        "MoveOn",
+        "Challenge_VI",
+        "Challenge_IV"
+    ],
+    "colour": "#04ff00"
+  },
+  {
+    "name": "Blue pack",
+    "levels": [
+        "Broomstick",
+        "Jefferey_End",
+        "Wave_Challenge_X",
+        "Wave_Challenge_VIIII",
+        "Ouchers",
+        "Spider_Challenge_II",
+        "Robot_Challenge",
+        "Ouchy",
+        "Challenge_III"
+    ],
+    "colour": "#0095ff"
+  },
+  {
+    "name": "Magenta pack",
+    "levels": [
+        "WCVIF_Reborn",
+        "Asgerment",
+        "WaveChallengeVIFull",
+        "Robot_Challenge_II",
+        "Challenge_VIIII"
+    ],
+    "colour": "#f200ff"
   }
 ]
