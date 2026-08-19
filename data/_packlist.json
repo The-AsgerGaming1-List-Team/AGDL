@@ -219,5 +219,15 @@
         "Challenge_VIIII"
     ],
     "colour": "#f200ff"
+  },
+  {
+    "name": "Black pack",
+    "levels": [
+        "Unnamed_ZERO",
+        "Wave_Challenge_VIII",
+        "Wave_Challenge_VII",
+        "Challenge_V"
+    ],
+    "colour": "#000000"
   }
 ]
