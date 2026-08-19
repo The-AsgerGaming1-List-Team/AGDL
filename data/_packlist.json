@@ -270,5 +270,13 @@
         "Ouchy"
     ],
     "colour": "#a37371"
+  },
+  {
+    "name": "Blast Processing pack",
+    "levels": [
+        "Impactful_Protester",
+        "impact_processor"
+    ],
+    "colour": "#edc213"
   }
 ]
