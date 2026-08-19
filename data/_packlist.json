@@ -100,5 +100,50 @@
         "Ouchers"
     ],
     "colour": "#ff0000"
+  },
+  {
+    "name": "Colors pack 1",
+    "levels": [
+        "Ball_Challenge_II",
+        "Cradling",
+        "Challenge_VIIII"
+    ],
+    "colour": "#2f00ff"
+  },
+  {
+    "name": "Colors pack 2",
+    "levels": [
+        "Calgo",
+        "Ufo_Challenge_II",
+        "Wave_Challenge_X"
+    ],
+    "colour": "#8000ff"
+  },
+  {
+    "name": "Colors pack 3",
+    "levels": [
+        "Lebrons_Balls",
+        "Impact_Processor",
+        "Clubstep_2"
+    ],
+    "colour": "#b300ff"
+  },
+  {
+    "name": "Colors pack 4",
+    "levels": [
+        "Impactful_Protester",
+        "Revenger",
+        "Updown"
+    ],
+    "colour": "##ea00ff"
+  },
+  {
+    "name": "Colors pack 5",
+    "levels": [
+        "WCVIF_Reborn",
+        "Nya_Circles",
+        "5O5"
+    ],
+    "colour": "#ff00a6"
   }
 ]
