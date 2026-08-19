@@ -145,5 +145,23 @@
         "5O5"
     ],
     "colour": "#ff00a6"
+  },
+  {
+    "name": "Gay pack",
+    "levels": [
+        "Nya_Circles",
+        "Lebrons_Balls",
+        "Ball_Challenge_II"
+    ],
+    "colour": "#eb344f"
+  },
+  {
+    "name": "Straight pack",
+    "levels": [
+        "Wave_Challenge_VIII",
+        "Wave_Challenge_VIIII",
+        "Challenge_V"
+    ],
+    "colour": "#999999"
   }
 ]
