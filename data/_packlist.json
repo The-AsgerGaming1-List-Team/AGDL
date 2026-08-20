@@ -355,5 +355,24 @@
         "Clubman"
     ],
     "colour": "#0bb6e6"
+  },
+  {
+    "name": "2.11 pack",
+    "levels": [
+        "WaveChallengeVIFull",
+        "MoveOn",
+        "Abyssive",
+        "Revenger",
+        "Cradling",
+        "Spider_Challenge_II",
+        "Robot_Challenge",
+        "Ball_Challenge_III",
+        "Challenge_IV",
+        "Ouchy",
+        "Wave_Challenge_V",
+        "Ball_Challenge_II",
+        "Clubman"
+    ],
+    "colour": "#b6e60b"
   }
 ]
