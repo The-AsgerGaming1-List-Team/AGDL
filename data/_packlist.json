@@ -86,9 +86,9 @@
   {
     "name": "Old pack 2",
     "levels": [
+        "Taking_On_Hell",
         "Cradling",
-        "Wave_Challenge_V",
-        "Ball_Challenge_II"
+        "Wave_Challenge_V"
     ],
     "colour": "#544027"
   },
@@ -191,6 +191,7 @@
         "Ahhhhh",
         "Heartache",
         "Challenge_VIII",
+        "Taking_On_Hell",
         "Clubman"
     ],
     "colour": "#ff0000"
