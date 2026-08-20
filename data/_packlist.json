@@ -376,5 +376,13 @@
         "Clubman"
     ],
     "colour": "#b6e60b"
+  },
+  {
+    "name": "Deadlocked pack",
+    "levels": [
+        "Praylocked",
+        "Just Deadlocked"
+    ],
+    "colour": "#654fc9"
   }
 ]
