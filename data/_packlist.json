@@ -318,5 +318,42 @@
         "impact_processor"
     ],
     "colour": "#faff5e"
+  },
+  {
+    "name": "Cube pack",
+    "levels": [
+        "Broomstick",
+        "Jefferey_End",
+        "Unnamed_ZERO",
+        "Yeeowchh",
+        "Ouchers",
+        "Ouchy",
+        "Sleep_Deprivation"
+    ],
+    "colour": "#0be61a"
+  },
+  {
+    "name": "Ball pack",
+    "levels": [
+        "Lebrons_Balls",
+        "Ball_Challenge_III",
+        "Ball_Challenge_II"
+    ],
+    "colour": "#e6210b"
+  },
+  {
+    "name": "Wave pack",
+    "levels": [
+        "WCVIF_Reborn",
+        "WaveChallengeVIFull",
+        "UpDown",
+        "Wave_Challenge_X",
+        "Wave_Challenge_VIII",
+        "Wave_Challenge_VII",
+        "Wave_Challenge_VIIII",
+        "Wave_Challenge_V",
+        "Clubman"
+    ],
+    "colour": "#0bb6e6"
   }
 ]
