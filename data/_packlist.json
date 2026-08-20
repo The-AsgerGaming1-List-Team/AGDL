@@ -84,6 +84,15 @@
     "colour": "#594c3b"
   },
   {
+    "name": "Old pack 2",
+    "levels": [
+        "Cradling",
+        "Wave_Challenge_V",
+        "Ball_Challenge_II"
+    ],
+    "colour": "#544027"
+  },
+  {
     "name": "Platformer pack",
     "levels": [
         "Geometrytale",
