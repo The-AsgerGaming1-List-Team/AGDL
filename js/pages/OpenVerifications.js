@@ -165,17 +165,21 @@ export default {
         level() {
             return this.list[this.selected][0];
         },
-        video() {
-            if (!this.level.showcase) {
-                return embed(this.level.verification);
-            }
+video() {
+    if (!this.level?.verification) {
+        return "";
+    }
 
-            return embed(
-                this.toggledShowcase
-                    ? this.level.showcase
-                    : this.level.verification
-            );
-        },
+    if (!this.level.showcase) {
+        return embed(this.level.verification);
+    }
+
+    return embed(
+        this.toggledShowcase
+            ? this.level.showcase
+            : this.level.verification
+    );
+},
     },
     async mounted() {
         // Hide loading spinner
