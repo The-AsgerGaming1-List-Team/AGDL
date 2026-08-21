@@ -239,4 +239,36 @@ export async function fetchPackLevels(packName) {
     } catch {
         return null;
     }
+export async function fetchOpenVerifications() {
+    try {
+        const res = await fetch(`${dir}/_openverifications.json`);
+        const list = await res.json();
+
+        return await Promise.all(
+            list.map(async (path, idx) => {
+                try {
+                    const levelRes = await fetch(`${dir}/${path}.json`);
+                    const level = await levelRes.json();
+
+                    return [{
+                        level: {
+                            ...level,
+                            path,
+                            records: (level.records ?? [])
+                                .sort((a, b) => b.percent - a.percent)
+                        }
+                    }, null];
+
+                } catch {
+                    console.error(
+                        `Failed to load open verification #${idx + 1}: ${path}.json`
+                    );
+
+                    return [null, path];
+                }
+            })
+        );
+    } catch {
+        return null;
+    }
 }
