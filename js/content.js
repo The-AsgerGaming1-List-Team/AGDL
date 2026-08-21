@@ -272,3 +272,4 @@ export async function fetchOpenVerifications() {
     } catch {
         return null;
     }
+}
