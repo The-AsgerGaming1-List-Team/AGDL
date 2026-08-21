@@ -394,5 +394,24 @@
         "Challenge_V"
     ],
     "colour": "#654fc9"
+  },
+  {
+    "name": "Hell pack",
+    "levels": [
+        "Challenge_X",
+        "Taking_On_Hell",
+        "Clubman"
+    ],
+    "colour": "#9e0303"
+  },
+  {
+    "name": "Seizure pack",
+    "levels": [
+        "Nya_Circles",
+        "Ahhhhh",
+        "Wave_Challenge_VIII",
+        "Challenge_VIII"
+    ],
+    "colour": "#f200ff"
   }
 ]
