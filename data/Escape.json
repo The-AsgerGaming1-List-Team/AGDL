@@ -1,0 +1,18 @@
+{
+    "id": 82955791,
+    "name": "Escape",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://youtu.be/ALaXKPJ7zjk",
+    "cbf": "No",
+    "percentToQualify": "73",
+    "records": [
+                        {
+            "user": "xxAJGDxx",
+            "link": "https://www.youtube.com/watch?v=ViOze1ebKdc",
+            "percent": 100,
+            "hz": 300
+        }
+    ]
+}

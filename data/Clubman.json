@@ -1,0 +1,30 @@
+{
+    "id": 110271538,
+    "name": "Clubman",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "youtube.com/watch?v=6qz1RtqhrZg&feature=youtu.be",
+    "cbf": "No",
+    "percentToQualify": "80",
+    "records": [
+                        {
+            "user": "xxAJGDxx",
+            "link": "https://www.youtube.com/watch?v=cbEi4gacskA",
+            "percent": 100,
+            "hz": 300
+        },
+        {
+            "user": "T3k4in",
+            "link": "https://www.youtube.com/watch?v=WxmcUTV_-WM",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "snowwwwyyy",
+            "link": "https://www.youtube.com/watch?v=yOUuwM0Tu1w",
+            "percent": 100,
+            "hz": 200
+        }
+    ]
+}

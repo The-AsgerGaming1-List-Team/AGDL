@@ -1,0 +1,19 @@
+{
+    "id": 125635490,
+    "name": "Sleep Deprivation",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://youtu.be/kAjX8JUEB18",
+    "cbf": "No",
+    "percentToQualify": "65",
+    "records": [
+                        {
+            "user": "Picklekyyy",
+            "link": "https://www.youtube.com/watch?v=2L-cpxznWaI",
+            "percent": 100,
+            "cbf": "CBF",
+            "hz": 60
+        }
+    ]
+}

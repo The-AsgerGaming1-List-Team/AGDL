@@ -1,0 +1,19 @@
+{
+    "id": 82737684,
+    "name": "Zstep",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://youtu.be/vF8ChW2oebw",
+    "cbf": "No",
+    "percentToQualify": "85",
+    "records": [
+                        {
+            "user": "RennnGMD",
+            "link": "https://youtu.be/EjMo-2oCcFg?si=_ofvN8g3idCfOrDE",
+            "percent": 100,
+            "cbf": "cbf",
+            "hz": 60
+        }
+    ]
+}

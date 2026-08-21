@@ -1,0 +1,25 @@
+{
+    "id": 83396061,
+    "name": "Peace",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://youtu.be/gYQAxdqv-iw",
+    "cbf": "No",
+    "percentToQualify": "85",
+    "records": [
+                        {
+            "user": "xxAJGDxx",
+            "link": "https://www.youtube.com/watch?v=ViOze1ebKdc",
+            "percent": 100,
+            "hz": 300
+        },
+                        {
+            "user": "RennnGMD",
+            "link": "https://youtu.be/M4trGdWqE3M?si=ZGLbliZEzryxa4OY",
+            "percent": 100,
+            "cbf": "cbf",
+            "hz": 60
+        }
+    ]
+}

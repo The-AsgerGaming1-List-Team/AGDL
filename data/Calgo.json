@@ -1,0 +1,25 @@
+{
+    "id": 146249599,
+    "name": "Calgo",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://www.youtube.com/watch?v=0JL-ZMKceng",
+    "cbf": "No",
+    "percentToQualify": "70",
+    "records": [
+                        {
+            "user": "Exlvs",
+            "link": "https://www.youtube.com/watch?v=w6n0C_XSbcc",
+            "percent": 100,
+            "hz": 90
+        },
+        {
+            "user": "owch44",
+            "link": "https://www.youtube.com/live/ZW-n-jHFMts?si=9wljLLmhoLJfx1a6&t=8956",
+            "percent": 100,
+            "cbf": "cbf",
+            "hz": 360
+        }
+    ]
+}

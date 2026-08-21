@@ -1,0 +1,37 @@
+{
+    "id": 83794764,
+    "name": "Wave Practice 2",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://youtu.be/r7p6WKV0BzQ",
+    "cbf": "No",
+    "percentToQualify": "95",
+    "records": [
+                        {
+            "user": "xxAJGDxx",
+            "link": "https://www.youtube.com/watch?v=ViOze1ebKdc",
+            "percent": 100,
+            "hz": 300
+        },
+                        {
+            "user": "Picklekyyy",
+            "link": "https://www.youtube.com/watch?v=2L-cpxznWaI",
+            "percent": 100,
+            "cbf": "CBF",
+            "hz": 60
+        },
+                        {
+            "user": "Chomp5O5",
+            "link": "https://www.youtube.com/watch?v=wIuGYRr5PNw",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "T3k4in",
+            "link": "https://www.youtube.com/watch?v=WxmcUTV_-WM",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

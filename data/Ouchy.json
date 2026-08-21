@@ -1,0 +1,37 @@
+{
+    "id": 96190837,
+    "name": "Ouchy",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://youtu.be/NuDIigX97_Q",
+    "cbf": "No",
+    "percentToQualify": "40",
+    "records": [
+                        {
+            "user": "xxAJGDxx",
+            "link": "https://www.youtube.com/watch?v=ViOze1ebKdc",
+            "percent": 100,
+            "hz": 300
+        },
+                        {
+            "user": "NotEeE42",
+            "link": "https://www.youtube.com/watch?v=msBJZltAjoI",
+            "percent": 100,
+            "hz": 360
+        },
+                        {
+            "user": "Exlvs",
+            "link": "https://drive.google.com/file/d/1Z6-ExI9vBIEeW24pW3iLGmc6kbfVp8H0/view?usp=drivesdk",
+            "percent": 100,
+            "hz": 90
+        },
+        {
+            "user": "owch44",
+            "link": "https://youtu.be/o9xgLhrQ3Xk?si=KYyu2V5N0wGkHR0K",
+            "percent": 100,
+            "cbf": "cbf",
+            "hz": 360
+        }
+    ]
+}

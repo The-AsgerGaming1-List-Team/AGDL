@@ -1,0 +1,18 @@
+{
+    "id": 145868729,
+    "name": "Praylocked",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://www.youtube.com/watch?v=Mv3tJlNPplg",
+    "cbf": "No",
+    "percentToQualify": "57",
+    "records": [
+                        {
+            "user": "Exlvs",
+            "link": "https://www.youtube.com/watch?v=7silWqou-fg",
+            "percent": 100,
+            "hz": 90
+        }
+    ]
+}

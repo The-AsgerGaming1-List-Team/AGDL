@@ -1,0 +1,36 @@
+{
+    "id": 87201480,
+    "name": "Ball Challenge II",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://youtu.be/f0EN3NRihZ8",
+    "cbf": "No",
+    "percentToQualify": "83",
+    "records": [
+                        {
+            "user": "xxAJGDxx",
+            "link": "https://www.youtube.com/watch?v=ViOze1ebKdc",
+            "percent": 100,
+            "hz": 300
+        },
+                {
+            "user": "T3k4in",
+            "link": "https://www.youtube.com/watch?v=WxmcUTV_-WM",
+            "percent": 100,
+            "hz": 240
+        },
+                {
+            "user": "snowwwwyyy",
+            "link": "https://www.youtube.com/watch?v=xgR_Iyf_Edw",
+            "percent": 100,
+            "hz": 200
+        },
+                {
+            "user": "Casencat",
+            "link": "https://youtu.be/ULioztOax8I?is=Kpyes7Nz79JyPZmd",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

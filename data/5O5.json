@@ -1,0 +1,18 @@
+{
+    "id": 144767847,
+    "name": "5O5",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://youtu.be/zqyhpCka3Ls?si=N6BVA-h1tSEguV-f",
+    "cbf": "No",
+    "percentToQualify": "61",
+    "records": [
+                        {
+            "user": "Ploggix",
+            "link": "https://www.youtube.com/watch?v=zqyhpCka3Ls&t",
+            "percent": 73,
+            "hz": 300
+        }
+    ]
+}

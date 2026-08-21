@@ -1,0 +1,38 @@
+{
+    "id": 110452721,
+    "name": "Wave Challenge VIIII",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://youtu.be/TUH8PT3Sd5w",
+    "cbf": "No",
+    "percentToQualify": "61",
+    "records": [
+        {
+            "user": "Mjsgd02027",
+            "link": "https://youtu.be/eClzKpdYIWI?si=6G8-I7HbmIYWchRb",
+            "percent": 100,
+            "hz": 120
+        },
+                        {
+            "user": "xxAJGDxx",
+            "link": "https://www.youtube.com/watch?v=ViOze1ebKdc",
+            "percent": 100,
+            "hz": 300
+        },
+                        {
+            "user": "owch44",
+            "link": "https://www.youtube.com/watch?v=iKIXOM0aQkg",
+            "percent": 100,
+            "cbf": "CBF",
+            "hz": 360
+        },
+                        {
+            "user": "Picklekyyy",
+            "link": "https://www.youtube.com/live/1vkSKgURI0Q",
+            "percent": 100,
+            "cbf": "CBF",
+            "hz": 60
+        }
+    ]
+}

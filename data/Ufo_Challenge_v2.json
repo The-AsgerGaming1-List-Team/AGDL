@@ -1,0 +1,24 @@
+{
+    "id": 84846485,
+    "name": "Ufo Challenge v2",
+    "author": "Asger Gaming1",
+    "creators": ["Asger Gaming1"],
+    "verifier": "Asger Gaming1",
+    "verification": "https://youtu.be/J6O8iFQAM7g",
+    "cbf": "No",
+    "percentToQualify": "66",
+    "records": [
+                        {
+            "user": "xxAJGDxx",
+            "link": "https://www.youtube.com/watch?v=cbEi4gacskA",
+            "percent": 100,
+            "hz": 300
+        },
+                        {
+            "user": "NotEeE42",
+            "link": "https://youtu.be/PhrI7YmMe4M",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
