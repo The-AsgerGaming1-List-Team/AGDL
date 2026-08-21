@@ -8,5 +8,12 @@
     "cbf": "No",
     "percentToQualify": "87",
     "records": [
+                        {
+            "user": "Wenkyyy",
+            "link": "https://www.youtube.com/watch?v=hwnFGVMgFck",
+            "percent": 100,
+            "cbf": "CBF",
+            "hz": 60
+        }
     ]
 }
