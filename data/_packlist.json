@@ -385,5 +385,14 @@
         "Just_Deadlocked"
     ],
     "colour": "#654fc9"
+  },
+  {
+    "name": "Effects pack",
+    "levels": [
+        "Wave_Challenge_VIII",
+        "Wave_Challenge_VII",
+        "Challenge_V"
+    ],
+    "colour": "#654fc9"
   }
 ]
