@@ -239,6 +239,7 @@ export async function fetchPackLevels(packName) {
     } catch {
         return null;
     }
+}
 export async function fetchOpenVerifications() {
     try {
         const res = await fetch(`${dir}/_openverifications.json`);
@@ -271,4 +272,3 @@ export async function fetchOpenVerifications() {
     } catch {
         return null;
     }
-}
