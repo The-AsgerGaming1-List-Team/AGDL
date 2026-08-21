@@ -448,5 +448,32 @@
         "Challenge_X"
     ],
     "colour": "#4fc28e"
+  },
+  {
+    "name": "Full level pack 1",
+    "levels": [
+        "Taking_On_Hell",
+        "Cradling",
+        "Clubstep_2"
+    ],
+    "colour": "#4f53c2"
+  },
+  {
+    "name": "Full level pack 2",
+    "levels": [
+        "Revenger",
+        "Abyssive",
+        "Revenger_II"
+    ],
+    "colour": "#6e4fc2"
+  },
+  {
+    "name": "Full level pack 3",
+    "levels": [
+        "MoveOn",
+        "WCVIF_Reborn",
+        "Nya_Circles"
+    ],
+    "colour": "#8e4fc2"
   }
 ]
