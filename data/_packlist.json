@@ -421,5 +421,32 @@
         "Challenge_VIII"
     ],
     "colour": "#c3ff00"
+  },
+  {
+    "name": "Slow pack 1",
+    "levels": [
+        "Ouchy",
+        "Robot_Challenge",
+        "Ouchers"
+    ],
+    "colour": "#4fc257"
+  },
+  {
+    "name": "Slow pack 2",
+    "levels": [
+        "Yeeowchh",
+        "Wave_Challenge_VIIII",
+        "Ufo_Challenge_II"
+    ],
+    "colour": "#4fc270"
+  },
+  {
+    "name": "Slow pack 3",
+    "levels": [
+        "UpDown",
+        "Unnamed_ZERO",
+        "Challenge_X"
+    ],
+    "colour": "#4fc28e"
   }
 ]
