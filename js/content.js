@@ -28,6 +28,7 @@ if (packs) {
         });
     });
 }
+}
 export async function fetchOpenVerifications() {
     try {
         const res = await fetch(`${dir}/_openverifications.json`);
