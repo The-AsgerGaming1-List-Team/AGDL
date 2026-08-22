@@ -39,7 +39,7 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
-                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <LevelAuthors :author="level.author" :creators="level.creators"></LevelAuthors>
 
                     <div v-if="level.packs?.length" class="packs">
                         <a
