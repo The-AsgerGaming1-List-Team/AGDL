@@ -16,52 +16,31 @@ const leaderboardBlacklist = [
 export async function fetchList() {
     const packs = await fetchPacks();
 
-const levelToPacks = {};
+    const levelToPacks = {};
 
-if (packs) {
-    packs.forEach(pack => {
-        (pack.levels ?? []).forEach(levelId => {
-            (levelToPacks[levelId] ??= []).push({
-                name: pack.name,
-                colour: pack.colour,
+    if (packs) {
+        packs.forEach(pack => {
+            (pack.levels ?? []).forEach(levelId => {
+                (levelToPacks[levelId] ??= []).push({
+                    name: pack.name,
+                    colour: pack.colour,
+                });
             });
         });
-    });
-}
-}
-export async function fetchOpenVerifications() {
-    try {
-        const res = await fetch(`${dir}/_openverifications.json`);
-        const list = await res.json();
-
-        return await Promise.all(
-            list.map(async (path, idx) => {
-                try {
-                    const levelRes = await fetch(`${dir}/${path}.json`);
-                    const level = await levelRes.json();
-
-                    return [level, null];
-                } catch {
-                    console.error(
-                        `Failed to load open verification #${idx + 1}: ${path}.json`
-                    );
-
-                    return [null, path];
-                }
-            })
-        );
-    } catch {
-        return null;
     }
-}
+
     const listResult = await fetch(`${dir}/_list.json`);
+
     try {
         const list = await listResult.json();
+
         return await Promise.all(
             list.map(async (path, rank) => {
                 const levelResult = await fetch(`${dir}/${path}.json`);
+
                 try {
                     const level = await levelResult.json();
+
                     return [
                         {
                             ...level,
@@ -74,7 +53,10 @@ export async function fetchOpenVerifications() {
                         null,
                     ];
                 } catch {
-                    console.error(`Failed to load level #${rank + 1} ${path}.`);
+                    console.error(
+                        `Failed to load level #${rank + 1} ${path}.`
+                    );
+
                     return [null, path];
                 }
             }),
@@ -85,6 +67,43 @@ export async function fetchOpenVerifications() {
     }
 }
 
+
+export async function fetchOpenVerifications() {
+    try {
+        const res = await fetch(`${dir}/_openverifications.json`);
+        const list = await res.json();
+
+        return await Promise.all(
+            list.map(async (path, idx) => {
+                try {
+                    const levelRes = await fetch(`${dir}/${path}.json`);
+                    const level = await levelRes.json();
+
+                    return [
+                        {
+                            ...level,
+                            path,
+                            packs: [],
+                            records: (level.records ?? []).sort(
+                                (a, b) => b.percent - a.percent,
+                            ),
+                        },
+                        null,
+                    ];
+                } catch {
+                    console.error(
+                        `Failed to load open verification #${idx + 1}: ${path}.json`
+                    );
+
+                    return [null, path];
+                }
+            }),
+        );
+    } catch {
+        console.error(`Failed to load open verification list.`);
+        return null;
+    }
+}
 export async function fetchEditors() {
     try {
         const editorsResults = await fetch(`${dir}/_editors.json`);
