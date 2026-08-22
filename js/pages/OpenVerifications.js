@@ -114,7 +114,7 @@ export default {
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 480fps)
                     </p>
                     <p>
-                        Your footage must show the death you got before the completion, and at least up until the completion screen show animation has completely finished appearing. If you beat it 1 attempt, then show at least you entering the level
+                        Your footage must show the death you got before the run, and at least up until you die/verify it. If you beat it 1 attempt, then show at least you entering the level
                     </p>
                     <p>
                         It must be the level you beat and not a copy of the level.
@@ -123,7 +123,7 @@ export default {
                         Raw footage must be a youtube video, a google drive link or medal clip. if livestreamed, send the completion livestream
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated
+                        The recording must also show the player hit the endwall if you verified it, or the completion will be invalidated
                     </p>
                     <p>
                         Your raw footage cannot contain ANY editing in it whatsoever
@@ -139,6 +139,9 @@ export default {
                     </p>
                     <p>
                         If you can, PLEASE show any proof in the raw footage that you did not break any of these rules, most importantly the cbf rule since that one is hard to detect
+                    </p>
+                    <p>
+                        You must collect all coins in the level for the verification to be valid, obviously. If you're just submitting progress then please get all coins up until your death
                     </p>
                 </div>
             </div>
