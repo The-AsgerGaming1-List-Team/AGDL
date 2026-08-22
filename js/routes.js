@@ -2,6 +2,7 @@ import List from './pages/List.js';
 import Leaderboard from './pages/Leaderboard.js';
 import Roulette from './pages/Roulette.js';
 import ListPacks from './pages/ListPacks.js';
+import OpenVerifications from "./pages/OpenVerifications.js";
 
 export default [
     { path: '/', component: List },
@@ -10,4 +11,5 @@ export default [
 
     { path: '/packs', component: ListPacks },
     { path: '/listpacks', component: ListPacks },
+    { path: "/open-verifications", component: OpenVerifications },
 ];
