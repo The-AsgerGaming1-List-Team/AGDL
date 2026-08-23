@@ -9,5 +9,12 @@
     "est": "Top 5",
     "percentToQualify": "15",
     "records": [
+                        {
+            "user": "morganistic",
+            "link": "https://www.youtube.com/watch?v=lTTgWFYscOg",
+            "percent": 36,
+            "cbf": "CBF",
+            "hz": 480
+        }
     ]
 }
