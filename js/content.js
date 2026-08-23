@@ -133,53 +133,7 @@ export async function fetchLeaderboard() {
       errs.push(err);
       return;
     }
-      if (openVerifications) {
-    openVerifications.forEach(([level, err]) => {
-        if (err || !level) {
-            return;
-        }
 
-        level.records.forEach((record) => {
-            if (isBlacklisted(record.user)) {
-                return;
-            }
-
-            const user = Object.keys(scoreMap).find(
-                (u) => u.toLowerCase() === record.user.toLowerCase(),
-            ) || record.user;
-
-            scoreMap[user] ??= {
-                verified: [],
-                completed: [],
-                progressed: [],
-            };
-
-            const { completed, progressed } = scoreMap[user];
-
-            if (record.percent === 100) {
-                completed.push({
-                    rank: null,
-                    level: level.name,
-                    score: 0,
-                    percent: 100,
-                    link: record.link,
-                    openVerification: true,
-                });
-
-                return;
-            }
-
-            progressed.push({
-                rank: null,
-                level: level.name,
-                percent: record.percent,
-                score: 0,
-                link: record.link,
-                openVerification: true,
-            });
-        });
-    });
-}
     // Verification
     if (!isBlacklisted(level.verifier)) {
       const verifier = Object.keys(scoreMap).find(
@@ -240,6 +194,53 @@ export async function fetchLeaderboard() {
       });
     });
   });
+if (openVerifications) {
+    openVerifications.forEach(([level, err]) => {
+        if (err || !level) {
+            return;
+        }
+
+        level.records.forEach((record) => {
+            if (isBlacklisted(record.user)) {
+                return;
+            }
+
+            const user = Object.keys(scoreMap).find(
+                (u) => u.toLowerCase() === record.user.toLowerCase(),
+            ) || record.user;
+
+            scoreMap[user] ??= {
+                verified: [],
+                completed: [],
+                progressed: [],
+            };
+
+            const { completed, progressed } = scoreMap[user];
+
+            if (record.percent === 100) {
+                completed.push({
+                    rank: null,
+                    level: level.name,
+                    score: 0,
+                    percent: 100,
+                    link: record.link,
+                    openVerification: true,
+                });
+
+                return;
+            }
+
+            progressed.push({
+                rank: null,
+                level: level.name,
+                percent: record.percent,
+                score: 0,
+                link: record.link,
+                openVerification: true,
+            });
+        });
+    });
+}
 
   // Wrap in extra Object containing the user and total score
 const res = Object.entries(scoreMap).map(([user, scores]) => {
