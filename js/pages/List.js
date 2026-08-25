@@ -62,10 +62,6 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
-                        </li>
-                        <li>
                             <div class="type-title-sm">Cbf used?</div>
                             <p>{{ level.cbf }}</p>
                         </li>
