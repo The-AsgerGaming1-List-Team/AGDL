@@ -480,7 +480,7 @@
     "name": "Robot pack",
     "levels": [
         "Robot_Challenge",
-        "Robot_Challenge_II",
+        "Robot_Challenge_II"
     ],
     "colour": "#cccccc"
   }
