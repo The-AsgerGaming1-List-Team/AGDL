@@ -475,5 +475,13 @@
         "Nya_Circles"
     ],
     "colour": "#8e4fc2"
+  },
+  {
+    "name": "Robot pack",
+    "levels": [
+        "Robot_Challenge",
+        "Robot_Challenge_II",
+    ],
+    "colour": "#cccccc"
   }
 ]
