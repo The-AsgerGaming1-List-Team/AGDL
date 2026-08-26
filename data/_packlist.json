@@ -484,5 +484,23 @@
         "Robot_Challenge_II"
     ],
     "colour": "#cccccc"
+  },
+  {
+    "name": "Fast pack 1",
+    "levels": [
+        "Wave_Challenge_V",
+        "Challenge_IV",
+        "Challenge_VI"
+    ],
+    "colour": "#cf5242"
+  },
+  {
+    "name": "Fast pack 2",
+    "levels": [
+        "Ahhhhh",
+        "Revenger",
+        "WaveChallengeVIFull"
+    ],
+    "colour": "#cf6f42"
   }
 ]
