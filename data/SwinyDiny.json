@@ -9,5 +9,11 @@
     "percentToQualify": "67",
     "est": "Top 17",
     "records": [
+                            {
+            "user": "Clientt",
+            "link": "https://youtu.be/Dx3J3UifOsc?si=pYGORiqNb1aQJSuW",
+            "percent": 100,
+            "hz": 165
+        }
     ]
 }
