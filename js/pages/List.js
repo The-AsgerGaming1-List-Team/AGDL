@@ -92,7 +92,7 @@ export default {
                             </td>
                         <td>
                             <p v-if="record.enjoyment !== null">
-                                {{ record.enjoyment }}/100
+                                {{ record.enjoyment }}
                             </p>
                             <p v-else>
                                 no
