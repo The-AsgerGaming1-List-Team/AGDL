@@ -39,19 +39,63 @@ export async function fetchList() {
                 const levelResult = await fetch(`${dir}/${path}.json`);
 
                 try {
-                    const level = await levelResult.json();
+const level = await levelResult.json();
 
-                    return [
-                        {
-                            ...level,
-                            path,
-                            packs: levelToPacks[path] ?? [],
-                            records: level.records.sort(
-                                (a, b) => b.percent - a.percent,
-                            ),
-                        },
-                        null,
-                    ];
+/* ================= ENJOYMENT ================= */
+
+// Start with the verifier's enjoyment rating.
+// If the level doesn't have one yet, don't add anything.
+const enjoymentRatings = [];
+
+if (
+    typeof level.enjoyment === "number" &&
+    level.enjoyment >= 1 &&
+    level.enjoyment <= 100
+) {
+    enjoymentRatings.push(level.enjoyment);
+}
+
+// Add enjoyment ratings from players who have completed
+// the level at 100%.
+(level.records ?? []).forEach(record => {
+    if (
+        record.percent === 100 &&
+        typeof record.enjoyment === "number" &&
+        record.enjoyment >= 1 &&
+        record.enjoyment <= 100
+    ) {
+        enjoymentRatings.push(record.enjoyment);
+    }
+});
+
+// Calculate the average.
+let estimatedEnjoyment = null;
+
+if (enjoymentRatings.length > 0) {
+    const totalEnjoyment = enjoymentRatings.reduce(
+        (sum, rating) => sum + rating,
+        0
+    );
+
+    estimatedEnjoyment = Math.round(
+        totalEnjoyment / enjoymentRatings.length
+    );
+}
+
+/* =============================================== */
+
+return [
+    {
+        ...level,
+        path,
+        estimatedEnjoyment,
+        packs: levelToPacks[path] ?? [],
+        records: (level.records ?? []).sort(
+            (a, b) => b.percent - a.percent,
+        ),
+    },
+    null,
+];
                 } catch {
                     console.error(
                         `Failed to load level #${rank + 1} ${path}.`
