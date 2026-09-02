@@ -95,9 +95,9 @@ export default {
                         <p>{{ selectedPackLevels[selectedLevel][0].level.id }}</p>
                     </li>
                     <li>
-                         <div class="type-title-sm">Cbf used?</div>
-                         <p>{{ level.cbf }}</p>
-                     </li>
+                        <div class="type-title-sm">Password</div>
+                        <p>{{ selectedPackLevels[selectedLevel][0].level.password || 'Free to Copy' }}</p>
+                    </li>
                     </ul>
 
                     <h2>Records</h2>
