@@ -62,6 +62,15 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
+                            <div class="type-title-sm">Enjoyment</div>
+                            <p v-if="level.estimatedEnjoyment !== null">
+                                {{ level.estimatedEnjoyment }}/100
+                            </p>
+                            <p v-else>
+                                Not rated
+                            </p>
+                        </li>
+                        <li>
                             <div class="type-title-sm">Cbf used?</div>
                             <p>{{ level.cbf }}</p>
                         </li>
