@@ -95,7 +95,7 @@ export default {
                                 {{ record.enjoyment }}/100
                             </p>
                             <p v-else>
-                                
+                                no
                             </p>
                         </td>
                             <td class="cbf type-title-sm">
