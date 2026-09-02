@@ -45,7 +45,8 @@
             "user": "Fmarc",
             "link": "https://medal.tv/games/geometry-dash/clips/mySea5Hik_yJSVwYc?invite=cr-MSxYNmYsMjMxNjQwNTAw",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "enjoyment": 50
         },
                         {
             "user": "Wenkyyy",
@@ -72,7 +73,8 @@
             "link": "https://youtube.com/shorts/ahfol7e9T5A?si=cdQiQsD4m28BGxmv",
             "percent": 100,
             "cbf": "CBF",
-            "hz": 280
+            "hz": 280,
+            "enjoyment": 50
         },
         {
             "user": "T3k4in",
