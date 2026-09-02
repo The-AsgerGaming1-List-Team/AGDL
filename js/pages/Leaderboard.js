@@ -90,6 +90,10 @@ export default {
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
+                                <td>
+                                    <div class="type-title-sm">Cbf used?</div>
+                                    <p>{{ level.cbf }}</p>
+                                </td>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
                                 </td>
