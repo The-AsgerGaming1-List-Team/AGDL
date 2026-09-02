@@ -90,6 +90,11 @@ export default {
                             <td class="mobile">
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
+                        <td>
+                            <p v-if="record.estimatedEnjoyment !== null">
+                                {{ record.estimatedEnjoyment }}/100
+                            </p>
+                        </td>
                             <td class="cbf type-title-sm">
                             <p v-if="record.cbf">{{ record.cbf }} </p>
                             <p v-else> </p>
