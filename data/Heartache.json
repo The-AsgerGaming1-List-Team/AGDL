@@ -8,5 +8,12 @@
     "cbf": "No",
     "percentToQualify": "50",
     "records": [
+        {
+            "user": "owch44",
+            "link": "https://www.youtube.com/live/h_1SD38AExg?si=JwsLMUVclKBQb1z1&t=13782",
+            "percent": 100,
+            "cbf": "cbf",
+            "hz": 360
+        }
     ]
 }
