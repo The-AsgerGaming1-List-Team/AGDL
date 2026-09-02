@@ -7,12 +7,14 @@
     "verification": "https://www.youtube.com/watch?v=x6U65JFNVgg",
     "cbf": "No",
     "percentToQualify": "35",
+    "enjoyment": 50,
     "records": [
         {
             "user": "Mjsgd02027",
             "link": "https://youtu.be/WBPAtDJTy6Q?si=vMot00e19tjmOsmb",
             "percent": 100,
-            "hz": 120
+            "hz": 120,
+            "enjoyment": 90
         },
         {
             "user": "ShinobiAkira",
