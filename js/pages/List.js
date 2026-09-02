@@ -94,6 +94,9 @@ export default {
                             <p v-if="record.enjoyment !== null">
                                 {{ record.enjoyment }}/100
                             </p>
+                            <p v-else>
+                                
+                            </p>
                         </td>
                             <td class="cbf type-title-sm">
                             <p v-if="record.cbf">{{ record.cbf }} </p>
