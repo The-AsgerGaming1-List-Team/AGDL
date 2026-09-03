@@ -82,7 +82,7 @@ export default {
                                         {{ score.enjoyment }}/100
                                     </p>
                                     <p v-else>
-                                        Not rated
+                                        
                                     </p>
                                 </td>
                                 <td class="score">
@@ -104,7 +104,7 @@ export default {
                                         {{ score.enjoyment }}/100
                                     </p>
                                     <p v-else>
-                                        Not rated
+                                        
                                     </p>
                                 </td>
                                 <td class="score">
