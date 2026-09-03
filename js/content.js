@@ -223,7 +223,6 @@ export async function fetchLeaderboard() {
                 rank: rank + 1,
                 level: level.name,
                 levelPath: level.path,
-                enjoyment: record.enjoyment
                 score: score(rank + 1, 100, level.percentToQualify),
                 link: record.link,
             });
