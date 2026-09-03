@@ -92,8 +92,8 @@ export default {
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td>
-                                    <p v-if="record.enjoyment !== null">
-                                        {{ record.enjoyment }}
+                                    <p v-if="score.enjoyment !== null">
+                                        {{ score.enjoyment }}
                                     </p>
                                     <p v-else>
                                         no
