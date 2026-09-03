@@ -91,12 +91,12 @@ export default {
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
-                                <td>
-                                    <p v-if="score.enjoyment !== null">
-                                        {{ score.enjoyment }}
+                                <td class="enjoyment">
+                                    <p v-if="score.enjoyment != null">
+                                        {{ score.enjoyment }}/100
                                     </p>
                                     <p v-else>
-                                        no
+                                        Not rated
                                     </p>
                                 </td>
                                 <td class="score">
