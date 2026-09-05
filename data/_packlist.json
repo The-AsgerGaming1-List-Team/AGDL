@@ -68,9 +68,9 @@
   {
     "name": "Timing Trio",
     "levels": [
+        "Jackhammer",
         "Broomstick",
-        "Jefferey_End",
-        "Unnamed_ZERO"
+        "Jefferey_End"
     ],
     "colour": "#000000"
   },
