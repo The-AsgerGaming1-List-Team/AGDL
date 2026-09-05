@@ -195,6 +195,7 @@ export async function fetchLeaderboard() {
       verified.push({
         rank: rank + 1,
         level: level.name,
+        levelPath: level.path,
         score: score(rank + 1, 100, level.percentToQualify),
         link: level.verification,
        enjoyment: level.enjoyment,
@@ -309,12 +310,15 @@ const packs = await fetchPacks();
 
 if (packs) {
     res.forEach(player => {
-        const completedIds = new Set(
-            player.completed
-                .map(level => level.levelPath)
-                .filter(Boolean)
-        );
+const completedIds = new Set([
+    ...player.completed
+        .map(level => level.levelPath)
+        .filter(Boolean),
 
+    ...player.verified
+        .map(level => level.levelPath)
+        .filter(Boolean),
+]);
         player.packs = packs.filter(pack => {
             const levels = pack.levels ?? [];
 
