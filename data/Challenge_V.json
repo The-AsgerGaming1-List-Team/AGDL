@@ -14,6 +14,14 @@
             "link": "https://www.youtube.com/watch?v=ViOze1ebKdc",
             "percent": 100,
             "hz": 300
+        },
+        {
+            "user": "owch44",
+            "link": "https://www.youtube.com/live/SDTlmRF1I-g?si=nLEn03K_743Jm-Zr&t=9259",
+            "percent": 100,
+            "cbf": "cbf",
+            "hz": 360,
+            "enjoyment": 95
         }
     ]
 }
