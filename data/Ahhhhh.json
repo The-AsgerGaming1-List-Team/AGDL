@@ -9,5 +9,13 @@
     "percentToQualify": "70",
     "enjoyment": 20,
     "records": [
+        {
+            "user": "owch44",
+            "link": "https://drive.google.com/file/d/1NnrfVJgwrUZrVJJB-wLNeqehFH8JdMLR/view?usp=sharing",
+            "percent": 100,
+            "cbf": "cbf",
+            "hz": 360,
+            "enjoyment": 80
+        }
     ]
 }
