@@ -158,6 +158,14 @@
     "colour": "#ff00a6"
   },
   {
+    "name": "Colors pack 6",
+    "levels": [
+        "SwinyBiny",
+        "Jackhammer"
+    ],
+    "colour": "#ff004c"
+  },
+  {
     "name": "Gay pack",
     "levels": [
         "Nya_Circles",
@@ -334,6 +342,7 @@
   {
     "name": "Cube pack",
     "levels": [
+        "Jackhammer",
         "Broomstick",
         "Jefferey_End",
         "Unnamed_ZERO",
