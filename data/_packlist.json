@@ -511,5 +511,14 @@
         "WaveChallengeVIFull"
     ],
     "colour": "#cf6f42"
+  },
+  {
+    "name": "Hard ending pack",
+    "levels": [
+        "Jackhammer",
+        "SwinyBiny",
+        "Updown"
+    ],
+    "colour": "#f56c42"
   }
 ]
