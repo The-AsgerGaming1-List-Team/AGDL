@@ -490,6 +490,14 @@
     "colour": "#8e4fc2"
   },
   {
+    "name": "Full level pack 4",
+    "levels": [
+        "Ultimate_Asger_Mix",
+        "5O5"
+    ],
+    "colour": "#b34fc2"
+  },
+  {
     "name": "Robot pack",
     "levels": [
         "Robot_Challenge",
