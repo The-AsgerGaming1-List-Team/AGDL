@@ -28,6 +28,13 @@
             "percent": 100,
             "hz": 200,
             "enjoyment": 97
+        },
+                        {
+            "user": "Jojodestroyer",
+            "link": "https://www.youtube.com/live/1vkSKgURI0Q",
+            "percent": 100,
+            "cbf": "CBF",
+            "hz": 144
         }
     ]
 }
