@@ -43,6 +43,14 @@
             "cbf": "cbf",
             "hz": 200,
             "enjoyment": 63
+        },
+                        {
+            "user": "Jojodestroyer",
+            "link": "https://www.youtube.com/watch?v=SR3ICvtrP0A",
+            "percent": 100,
+            "cbf": "CBF",
+            "hz": 144,
+            "enjoyment": 100
         }
     ]
 }
