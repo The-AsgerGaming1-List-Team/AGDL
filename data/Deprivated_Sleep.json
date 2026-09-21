@@ -9,5 +9,13 @@
     "percentToQualify": "60",
     "enjoyment": 90,
     "records": [
+        {
+            "user": "owch44",
+            "link": "https://www.youtube.com/live/APY-J7y1hnk?si=fstny6k_VWcMRkB6&t=1462",
+            "percent": 100,
+            "cbf": "cbf",
+            "hz": 360,
+            "enjoyment": 90
+        }
     ]
 }
