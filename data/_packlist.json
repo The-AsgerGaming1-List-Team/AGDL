@@ -320,6 +320,15 @@
     "colour": "#edc213"
   },
   {
+    "name": "The Hard Demon Pack",
+    "levels": [
+        "UpDown",
+        "Abyssive",
+        "Robot_Challenge_II"
+    ],
+    "colour": "#ed3232"
+  },
+  {
     "name": "The Insane Demon Pack",
     "levels": [
         "Jefferey_End",
