@@ -167,6 +167,14 @@
     "colour": "#ff004c"
   },
   {
+    "name": "Colors pack 7",
+    "levels": [
+        "Deprivated_Sleep",
+        "Roberto_Drift_3000"
+    ],
+    "colour": "#ff0019"
+  },
+  {
     "name": "Gay pack",
     "levels": [
         "Nya_Circles",
@@ -280,6 +288,7 @@
   {
     "name": "Tiny pack",
     "levels": [
+        "Roberto_Drift_3000",
         "UpDown",
         "Ahhhhh",
         "Lebrons_Balls",
@@ -502,7 +511,8 @@
     "name": "Robot pack",
     "levels": [
         "Robot_Challenge",
-        "Robot_Challenge_II"
+        "Robot_Challenge_II",
+        "Roberto_Drift_3000"
     ],
     "colour": "#cccccc"
   },
