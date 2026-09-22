@@ -320,6 +320,20 @@
     "colour": "#edc213"
   },
   {
+    "name": "The Insane Demon Pack",
+    "levels": [
+        "Jefferey_End",
+        "Roberto_Drift_3000",
+        "Asgerment",
+        "Unnamed_ZERO",
+        "WaveChallengeVIFull",
+        "SwinyBiny",
+        "MoveOn",
+        "Revenger_II"
+    ],
+    "colour": "#b80909"
+  },
+  {
     "name": "The Extreme Demon Pack",
     "levels": [
         "5O5",
