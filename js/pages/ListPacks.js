@@ -50,6 +50,7 @@ export default {
                         <td class="level" :class="{ 'active': selectedLevel == i, 'error': !level || !level[0] }">
                             <button :style="selectedLevel === i && pack ? { background: pack.colour } : {}" @click="selectedLevel = i">
                                 <span class="type-label-lg">
+                                color: getFontColour(pack.colour)
                                     {{ (level && level[0] && level[0].level && level[0].level.name) ? level[0].level.name : ('Error (' + (level && level[1] ? level[1] : '?') + '.json)') }}
                                 </span>
                             </button>
