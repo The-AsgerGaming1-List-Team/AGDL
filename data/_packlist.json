@@ -342,6 +342,15 @@
     "colour": "#fd82ff"
   },
   {
+    "name": "Memory pack 2",
+    "levels": [
+        "Broomstick",
+        "Focuslocked",
+        "Unnamed_ZERO"
+    ],
+    "colour": "#fc38ff"
+  },
+  {
     "name": "Robtop pack",
     "levels": [
         "Focuslocked",
