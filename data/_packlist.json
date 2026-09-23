@@ -553,5 +553,14 @@
         "UpDown"
     ],
     "colour": "#f56c42"
+  },
+  {
+    "name": "Cbf pack",
+    "levels": [
+        "Focuslocked",
+        "Ultimate_Asger_Mix",
+        "Nya_Circles"
+    ],
+    "colour": "#1453ff"
   }
 ]
