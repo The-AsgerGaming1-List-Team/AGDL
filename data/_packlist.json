@@ -344,6 +344,7 @@
   {
     "name": "Robtop pack",
     "levels": [
+        "Focuslocked",
         "Impactful_Protester",
         "Praylocked",
         "Clubstep_2",
@@ -412,6 +413,7 @@
   {
     "name": "Deadlocked pack",
     "levels": [
+        "Focuslocked",
         "Praylocked",
         "Just_Deadlocked"
     ],
