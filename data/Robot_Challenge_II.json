@@ -15,7 +15,14 @@
             "percent": 100,
             "hz": 120,
             "enjoyment": 70
+        },
+        {
+            "user": "owch44",
+            "link": "https://www.youtube.com/live/uBg75DkKFRI?si=Rxghii3ng59ROSNM&t=15246",
+            "percent": 100,
+            "cbf": "cbf",
+            "hz": 360,
+            "enjoyment": 90
         }
-
     ]
 }
