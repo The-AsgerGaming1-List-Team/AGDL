@@ -51,6 +51,14 @@
             "cbf": "CBF",
             "hz": 144,
             "enjoyment": 100
+        },
+                        {
+            "user": "Absoluteinf0",
+            "link": "https://drive.google.com/file/d/1OFB36oZnG91ORjDvhDNUjvz8q9fAUnu_/view?usp=drivesdk",
+            "percent": 100,
+            "cbf": "CBF",
+            "hz": 90,
+            "enjoyment": 50
         }
     ]
 }
