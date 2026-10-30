@@ -83,6 +83,14 @@
             "link": "https://www.youtube.com/watch?v=WxmcUTV_-WM",
             "percent": 100,
             "hz": 240
+        },
+                        {
+            "user": "Absoluteinf0",
+            "link": "https://drive.google.com/file/d/1X_3Oq6_naQeedQ0hjgVFo6lmIdqWXPIu/view?usp=drivesdk",
+            "percent": 100,
+            "cbf": "CBF",
+            "hz": 90,
+            "enjoyment": 75
         }
     ]
 }
