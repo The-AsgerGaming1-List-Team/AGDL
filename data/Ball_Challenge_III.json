@@ -14,6 +14,13 @@
             "link": "https://www.youtube.com/watch?v=ViOze1ebKdc",
             "percent": 100,
             "hz": 300
+        },
+                        {
+            "user": "MMDzNz",
+            "link": "https://youtu.be/dtor9v-iCWM",
+            "percent": 100,
+            "hz": 120,
+            "enjoyment": 100
         }
     ]
 }
