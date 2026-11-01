@@ -37,6 +37,13 @@
             "cbf": "CBF",
             "hz": 240,
             "enjoyment": 60
+        },
+                        {
+            "user": "MMDzNz",
+            "link": "https://youtu.be/-d7AMacOhlI",
+            "percent": 100,
+            "hz": 120,
+            "enjoyment": 85
         }
     ]
 }
